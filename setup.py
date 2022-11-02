@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'projects'
+package_name = 'GPSData'
 
 setup(
     name=package_name,
@@ -17,12 +17,12 @@ setup(
     zip_safe=True,
     maintainer='crae',
     maintainer_email='craeandrew@ufl.edu',
-    description='Controller Mapping',
+    description='GPS coordinates',
     license='N/A',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'joy = projects.joy:main',
+        'GPSData = GPSData.GPSData:main',
         ],
     },
 )
