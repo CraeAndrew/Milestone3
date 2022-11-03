@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'GPSData = milestone3.GPSData:main',
+        'GPSData = milestone3.process_GPSData_bagfile:main',
         ],
     },
 )
