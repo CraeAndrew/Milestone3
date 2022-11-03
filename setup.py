@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'mile3'
+package_name = 'milestone3'
 
 setup(
     name=package_name,
@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'GPSData = mile3.GPSData:main',
+        'GPSData = milestone3.GPSData:main',
         ],
     },
 )
