@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
         'GPSData = milestone3.process_GPSData_bagfile:main',
+        'Odom = milestone3.process_Odom_bagfile:main',
         ],
     },
 )
